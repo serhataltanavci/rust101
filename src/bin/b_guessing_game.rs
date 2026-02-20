@@ -33,9 +33,7 @@ fn main() {
         // println!("your guess is {}", guess);
         print!("\u{0007}");
     }
-
-
-
+    
 }
 
 
