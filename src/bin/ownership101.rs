@@ -1,9 +1,9 @@
 fn main() {
 
     another_shit();
-    
-    
-    
+
+
+
     let s = String::from("hello");  // s comes into scope
 
     takes_ownership(s);             // s's value moves into the function...
@@ -35,6 +35,6 @@ fn another_shit (){
     s.push_str(" darling!");
     println!("{s}");
     let s2 = s.clone();
-    println!("s = {s}, s2 = {s2} ");
+    println!("s = {s} s2 = {s2} ");
 
 }
